@@ -1,0 +1,21 @@
+[submodule "bundle/jistr-nerdtree-tabs"]
+	path = bundle/jistr-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/scrooloose-nerdtree"]
+	path = bundle/scrooloose-nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/tpope-abolish"]
+	path = bundle/tpope-abolish
+	url = https://github.com/tpope/vim-abolish.git
+[submodule "bundle/tpope-commentary"]
+	path = bundle/tpope-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "bundle/tpope-eunuch"]
+	path = bundle/tpope-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "bundle/tpope-fugitive"]
+	path = bundle/tpope-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/tpope-repeat"]
+	path = bundle/tpope-repeat
+	url = https://github.com/tpope/vim-repeat.git
