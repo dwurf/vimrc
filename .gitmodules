@@ -19,3 +19,6 @@
 [submodule "bundle/tpope-repeat"]
 	path = bundle/tpope-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/sjl-gundo"]
+	path = bundle/sjl-gundo
+	url = http://github.com/sjl/gundo.vim.git

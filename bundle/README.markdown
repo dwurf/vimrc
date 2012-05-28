@@ -10,6 +10,8 @@ tpope-repeat: support library for commentary and others
 tpope-abolish: funky text manipulation bindings. google it.
 tpope-eunuch: unix bindings. Particularly :SudoWrite
 scrooloose-nerdtree: NERDtree file browser
+sjl-gundo: type :GundoToggle to access your undo history as a tree
+           I bind U to :GundoToggle since I never use U (line-based undo)
 
 Stuff to check out later:
 tpope's unimpaired plugin has some useful mappings on the [ and ] keys
