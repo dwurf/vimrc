@@ -53,6 +53,19 @@ syntax on
 " Numbered lines
 set number
 
+" Searches are case insensitive, but only if the search term is all lowercase
+set ignorecase
+set smartcase
+" Highlight search results
+set hlsearch
+" Incremental search (search-as-you-type)
+set incsearch
+" Search/replace "globally" (all matches on the line) by default
+set gdefault
+
+" Show matching parentheses
+set showmatch
+
 " Load pathogen (if installed). Errors are hidden if pathogen is not installed.
 " Pathogen is for easy plugin management
 silent! call pathogen#infect() 
