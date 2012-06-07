@@ -85,4 +85,6 @@ let NERDTreeShowHidden=1
 " Make the default gui window larger
 if has("gui_running")
     set lines=30 columns=120
+else
+    colorscheme elflord
 endif
