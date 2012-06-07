@@ -71,6 +71,9 @@ set showmatch
 silent! call pathogen#infect() 
 filetype plugin indent on
 
+" Pydiction config - python autocomplete
+let g:pydiction_location = pathogen#runtime_findfile("complete-dict", 1)
+
 " NERDTree config. Will be ignored if NERDTree not installed
 
 " Always show NERDTree
