@@ -13,5 +13,5 @@ On Windows
 1. Put the following in `%HOMEDRIVE%%HOMEPATH%\_vimrc`:
 
     source ~/vimfiles/vimrc
-1. Run `git submodule init', followed by 'git submodule update`
+1. Run `git submodule init`, followed by 'git submodule update`
 
