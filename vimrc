@@ -46,6 +46,14 @@ set textwidth=120
 set laststatus=2
 " Personalised status line
 set statusline=%F%m%r%h%w\ [%Y,%{&ff}]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+" Show the cursor position all the time
+set ruler
+" Display incomplete commands
+set showcmd
+" Display current mode
+set showmode
+" Always show status bar
+set ls=2
 
 " Always use syntax highlighting
 syntax on
