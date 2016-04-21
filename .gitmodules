@@ -22,3 +22,6 @@
 [submodule "bundle/sjl-gundo"]
 	path = bundle/sjl-gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule "bunDle/tpope-sensible"]
+	path = bunDle/tpope-sensible
+	url = https://github.com/tpope/vim-sensible.git

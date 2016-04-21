@@ -5,6 +5,13 @@
 " Use all vim features
 set nocompatible
 
+" sensible.vim plugin - set senswible defaults
+" Load this now so the settings below override the defaults as needed
+runtime! plugin/sensible.vim
+
+" Very important! :)
+colorscheme elflord
+
 " Leader is set to \ (the default)
 " The leader key is used for additional keybinds, since almost every
 " key is bound already.
@@ -82,10 +89,9 @@ filetype plugin indent on
 " Pydiction config - python autocomplete
 let g:pydiction_location = pathogen#runtime_findfile("complete-dict", 1)
 
-" NERDTree config. Will be ignored if NERDTree not installed
-
-" Always show NERDTree
-let NERDTreeShowHidden=1 
+" Binds to show/hide NERDTree and Gundo
+nnoremap <F2> :GundoHide \| NERDTreeToggle<CR>
+nnoremap <F3> :NERDTreeClose \| GundoToggle<CR>
 
 " End NERDTree config
 
@@ -93,6 +99,5 @@ let NERDTreeShowHidden=1
 " Make the default gui window larger
 if has("gui_running")
     set lines=30 columns=120
-else
-    colorscheme elflord
 endif
+
