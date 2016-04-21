@@ -3,9 +3,13 @@ Using this repository
 
 On *nix:
 
-1. Check out the repository to `~/.vim`
-1. Symlink `~/.vimrc` to `~/.vim/vimrc`
-1. Run `git submodule init; git submodule update`
+        cd $HOME
+        git clone https://github.com/dwurf/vimrc.git .vimrc
+        mv .vimrc .vimrc.bak
+        ln -s .vim/vimrc .vimrc
+        cd .vimrc
+        git submodule init
+        git submodule update
 
 On Windows
 
